@@ -31,4 +31,30 @@
         tools:layout_editor_absoluteX="152dp" />
     <!--        tools:ignore="MissingConstraints" />-->
 
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="13dp"
+        android:hint="Enter Number"
+        android:maxLines="1"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/urlButton"
+        app:layout_constraintVertical_bias="0.064"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:hint="Call"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number"
+        app:layout_constraintVertical_bias="0.12"
+        tools:layout_editor_absoluteX="152dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
